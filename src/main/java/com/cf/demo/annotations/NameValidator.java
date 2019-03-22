@@ -17,7 +17,7 @@ public class NameValidator implements ConstraintValidator<Name,String> {
             if(value.startsWith(this.name)){
                 return false;
             }
-            return true;git add .
+            return true;
         }
         return false;
     }
